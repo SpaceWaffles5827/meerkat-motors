@@ -4,12 +4,53 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
-.bg-image{
-  height: 100vh;
+.navBar{
+  display: flex;
+  align-items: center;
   width: 100%;
-  background-image: url('https://www.expertafrica.com/images/animal/89984a517ae248338037e4b6435c5358.jpg');
+  height: 150px;
+  justify-content: space-between;
 }
-.NavBar{
+.textBox{
+  margin: 20px;
+  font-size: 15px;
+}
+.navBar .logo{
+  margin: 20px;
+}
+.textBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pageContnet{
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-image: url('../public/blurcar.png');
+  width: 100%;
+  height: calc(100vh - 150px);
+}
+.centerBoxBottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 30vw;
+  height: 25vh;
+}
+.centerBoxTop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate3d(-15px,-15px,0px);
+  width: 30vw;
+  height: 25vh;
+  background-color: white;
+}
+.centerBoxTop h1{
+  font-size: 85px;
+  font:bolder
 }
