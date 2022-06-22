@@ -4,3 +4,12 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+.bg-image{
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://www.expertafrica.com/images/animal/89984a517ae248338037e4b6435c5358.jpg');
+}
+.NavBar{
+  display: flex;
+  justify-content: center;
+}
