@@ -31,14 +31,11 @@ function App() {
         </div>
         <div className='aboutUs'>
           <h1>About Us:</h1>
-          <h2>ince Eurasia Motorwerks opened for business, we have made it our focus to connect car shoppers to quality used inventory. No matter what your budget or your needs, we are confident we can help find the right vehicle at a great price. Contact us today with your auto shopping questions and we'll be sure to get you the information you need to buy with confidence at Eurasia Motorwerks.</h2>
+          <h2>Since Eurasia Motorwerks opened for business, we have made it our focus to connect car shoppers to quality used inventory. No matter what your budget or your needs, we are confident we can help find the right vehicle at a great price. Contact us today with your auto shopping questions and we'll be sure to get you the information you need to buy with confidence at Eurasia Motorwerks.</h2>
         </div>
         <div className='carImages1'>
           <img src='/car04.png'></img>
           <img src='/car05.png'></img>
-        </div>
-        <div className='contact'>
-          <h1>Contact Us:</h1>
         </div>
         <div className='carImages1'>
           <img src='/car06.png'></img>
