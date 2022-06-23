@@ -5,69 +5,84 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .navBar{
-  background-color: rgb(53, 53, 53);
+  color: black;
   display: flex;
   align-items: center;
   width: 100%;
   height: 150px;
   justify-content: space-between;
 }
-.textBox{
-  margin: 20px;
-  font-size: 15px;
-}
 .navBar .logo{
   margin: 20px;
 }
 .textBox{
-  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.pageContnet{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../public/blurcar.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: calc(100vh - 150px);
-}
-.centerBoxBottom{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  width: 550px;
-  height: 250px;
-}
-.centerBoxTop{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transform: translate3d(-15px,-15px,0px);
-  width: 550px;
-  height: 250px;
-  background-color: white;
-}
-.centerBoxTop h1{
-  font-size: 80px;
-  font:bolder
-}
-.buttons h1{
-  font-size: 25px;
   margin: 20px;
+  font-size: 15px;
 }
-.buttons h1:hover{
-  cursor: pointer;
-  color: rgb(192, 192, 192);
+.textBox h1{
+  font-weight: lighter;
 }
 .buttons{
-  color: white;
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
+}
+.buttons h1:hover{
+  color: rgb(65, 65, 65);
+  cursor: pointer;
+}
+.buttons h1{
+  margin: 20px;
+}
+.pageContnet{
+  width: 100%;
+  height: calc(100vh - 180px);
+}
+.carImages1{
+  justify-content: center;
+  display: flex;
+  flex-basis: 100%;
+}
+.carImages1 img{
+  margin: 40px;
+  width: 23vw;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  background-color: grey;
+}
+.header h1{
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.topContent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topContent h1{
+  font-weight: lighter;
+  margin: 10px;
+}
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+}
+.contact{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  color: black;
+  justify-content: center;
 }
